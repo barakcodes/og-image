@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg'
-        : 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg';
+        ? 'https://res.cloudinary.com/dgn64jquv/image/upload/v1631631274/barakcodes-light10x_v33b9d.png'
+        : 'https://res.cloudinary.com/dgn64jquv/image/upload/v1631631272/barakcodes-dark10x_zxfqfd.png';
 
     if (!images || !images[0]) {
         return [defaultImage];
